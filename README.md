@@ -18,14 +18,15 @@
 
 ```
 discord_bug_bot/
-├── main.py                  # 봇 실행 및 초기화
+├── main.py # 봇 실행 및 초기화
 ├── bot_commands/
-│   └── bug_report_command.py
-├── google_sheet.py          # 구글 시트 연동 모듈
-├── requirements.txt         # 필요 라이브러리
-├── .env.example             # 환경 변수 예시 파일
+│ └── bug_report_command.py # 슬래시 명령어 핸들러
+├── utils/
+│ └── google_sheet.py # 구글 시트 연동 모듈
+├── requirements.txt # 필요 라이브러리
+├── .env.example # 환경 변수 예시 파일
 └── secrets/
-    └── (credentials.json 제외됨)
+└── (credentials.json 제외됨)
 ```
 
 ## ⚙️ 주요 기술 스택
