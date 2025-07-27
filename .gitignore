@@ -1,0 +1,7 @@
+# Git이 무시할 파일 목록
+secrets/
+credentials.json
+.env
+__pycache__/
+.venv/
+.vscode/
